@@ -48,14 +48,15 @@ p {
 .section1 {
     height: 100%;
     width: 75%;
+    padding-top: 10%;
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 55px;
 }
 
 .parrafo1 {
-    font-size: 40px;
+    font-size: 43px;
 }
 
 .p2 {
@@ -71,11 +72,11 @@ h1 {
 }
 
 .h4 {
-    font-size: 85px;
+    font-size: 65px;
 }
 
 .p4 {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .imgc3 {
@@ -86,7 +87,7 @@ h1 {
 
 .h2 {
     text-align: center;
-    font-size: 83px;
+    font-size: 67px;
 }
 
 .fondo {
@@ -115,7 +116,7 @@ h5 {
 }
 
 .h6 {
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
 }
 
@@ -145,7 +146,7 @@ body {
 }
 
 .p4 {
-    font-size: 45px;
+    font-size: 37px;
     text-align: left;
     padding-right: 4%;
 }
@@ -245,6 +246,9 @@ body {
     }
     .titulo {
         font-size: 43px;
+        background-image: url(../img/banner-2.jpg);
+        background-position: left;
+        height: 100vh;
     }
     h1 {
         padding-left: 1.5%;
