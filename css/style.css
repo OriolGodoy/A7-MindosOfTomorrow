@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+html {
+    font-size: 16px;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+p {
+    font-size: 1rem;
+}
+
+.h1banner {
+    font-size: 105px;
+    text-align: center;
+    padding: 0 4%;
+}
+
+.titulo {
+    background-image: url(../img/banner-2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padding {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.padding2 {
+    padding-left: 8%;
+}
+
+.padding3 {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.section2 {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.section1 {
+    height: 100%;
+    width: 75%;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+.parrafo1 {
+    font-size: 40px;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.imgcolumn {
+    height: 65%;
+    width: 65%;
+    display: block;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+.h4 {
+    font-size: 85px;
+}
+
+.p4 {
+    font-size: 40px;
+}
+
+.imgc3 {
+    height: 95%;
+    width: 95%;
+    padding-top: 20%;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 83px;
+}
+
+.fondo {
+    background-color: rgb(7, 248, 176);
+}
+
+.img4 {
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+.h6 {
+    font-size: 90px;
+    text-align: center;
+}
+
+
+/**************************/
+
+
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.fondof {
+    background-color: black;
+    padding: 3%;
+}
+
+.p3 {
+    color: white;
+    font-size: 15px;
+}
+
+.p4 {
+    font-size: 45px;
+    text-align: left;
+    padding-right: 4%;
+}
+
+.pf {
+    color: white;
+    padding-left: 10%;
+}
+
+.miami {
+    color: black;
+}
+
+.cl2 {
+    padding: 0%;
+    width: 50%;
+    float: left;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+    margin-top: -4px;
+}
+
+.title2 {
+    background-color: rgb(41, 159, 249);
+    margin-top: -4px;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+
+/* Otras clases */
+
+
+/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+    /* column-2 pasará de tener 50% a 100% */
+    .column-2 {
+        width: 100%;
+    }
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    .titulo {
+        font-size: 43px;
+    }
+    h1 {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 26px;
+    }
+    .h1banner {
+        font-size: 55px;
+        text-align: center;
+    }
+    .parrafo1 {
+        padding: 3%;
+        font-size: 20px;
+    }
+    .section1 {
+        width: 100%;
+        height: 100%;
+    }
+    .h2 {
+        padding: 0 8%;
+        font-size: 30px;
+    }
+    .h4 {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 25px;
+    }
+    .p4 {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 17px;
+    }
+    .img4 {
+        margin-top: -4px;
+    }
+    .p3 {
+        font-size: 140%;
+    }
+    .h6 {
+        font-size: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .fondof {
+        padding: 10%;
+    }
+    .pf {
+        font-size: 20px;
+        padding-left: 1px;
+    }
+}
